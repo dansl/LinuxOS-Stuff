@@ -55,9 +55,13 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   curl -O [the URL of the file]
   ```
 
-- List the Contents of a folder - The ‘ls’ command displays the contents of a directory By adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
+- List the Contents of a folder - The ‘ls’ command displays the contents of a directory, by adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
   ```
   ls -R [the path of the directory]
+  ```
+  Adding '-lr' will also show the file size and permissions.
+  ```
+  ls -lr [the path of the directory]
   ```
 
 - View any file’s contents - If you’re ever sent a file that won’t open, perhaps because you don’t have an app capable of opening it, or because it’s corrupt, you can view its contents in Terminal. For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
