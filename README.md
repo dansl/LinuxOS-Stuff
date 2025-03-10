@@ -6,6 +6,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | --- | --- | --- |
 | [Alpaca](https://github.com/Jeffser/Alpaca) | FREE | A simple chat style app for communicating with a local or remote AI model. |
 | [Blender](https://www.blender.org) | FREE | 3D modeling applicaiton. |
+| [Berty](https://berty.tech) | FREE | Decentralized messaging app with end-to-end encryption. |
 | [Bottles](https://usebottles.com) | FREE | Run Windows applications on Linux with WINE. |
 | [DarkReader](https://darkreader.org) | FREE | Makes all websites have a dark theme. |
 | [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) | FREE | Very advanced and well made video editor. |
