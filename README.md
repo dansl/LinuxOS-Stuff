@@ -69,11 +69,11 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   cat [file path]
   ```
 
-- How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. Mostly they work very well, but occasionally things go awry, like when you copy a file from one user account to another and discover you can’t open in it in your account. There are two commands we can use to change permissions; chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user. So, to change permissions on a file to allow anyone to access, read, and modify the file, we’d use:
+- How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. When you copy a file from one user account to another and discover you can’t open in it in your account. Use chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user.
   ```
   sudo chmod 777 path-to-file
   ```
-  Where path-to-file is the path of the file whose permissions you want to modify. Remember, rather than type the file path, you can drag the file onto the Terminal window. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, drag the folder onto the Terminal window instead of a file, and type -R after the command name. To change ownership of a file to your account, use:
+  To modify the permissions to allow access and reading, but prohibit editing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, type -R after the command name. To change ownership of a file to your account, use:
   ```
   sudo chown your-short-user-name path-to-file
   ```
@@ -84,7 +84,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   ```
   By default, it will show just one result. To see more results matching your search term, hit ctrl+r again and again. To quit reverse search, use Ctrl+C.
 
-- Unfreeze your Linux terminal - If you hit Ctrl+S, your terminal will freeze. Just use Ctrl+Q and you can use the terminal again.
+- Unfreeze your terminal - If you hit Ctrl+S, your terminal will freeze. Just use Ctrl+Q and you can use the terminal again.
   ```
   ctrl+Q
   ```
@@ -143,7 +143,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   yes | command_or_script
   ```
 
-- Find if there are files containing a particular text - There are multiple ways to search and find in Linux command line. But in the case when you just want to see if there are files that contain a particular text, you can use this command:
+- Find if there are files containing a particular text - There are multiple ways to search and find in command line. But in the case when you just want to see if there are files that contain a particular text, you can use this command:
   ```
   grep -Pri Search_Term path_to_directory
   ```
