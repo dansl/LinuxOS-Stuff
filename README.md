@@ -64,7 +64,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   ls -lr [the path of the directory]
   ```
 
-- View any file’s contents - If you’re ever sent a file that won’t open, perhaps because you don’t have an app capable of opening it, or because it’s corrupt, you can view its contents in Terminal. For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
+- View any file’s contents - For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
   ```
   cat [file path]
   ```
