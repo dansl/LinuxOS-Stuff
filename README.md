@@ -41,6 +41,40 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 
 ### Terminal Tips
 
+- Drag any file into a Terminal window to input its path.
+
+- In terminal, you can add "man" before any command to read it's manual page. For example.
+  ```
+  man ls
+  ```
+  Now you can see how to use the ls command, scrolling with your mouse or arrow keys and press 'q' key to quit.
+
+- Download files without a browser - Set the location you want the file to be downloaded and then download the file with curl.
+  ```
+  cd ~/Downloads/
+  curl -O [the URL of the file]
+  ```
+
+- List the Contents of a folder - The ‘ls’ command displays the contents of a directory By adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
+  ```
+  ls -R [the path of the directory]
+  ```
+
+- View any file’s contents - If you’re ever sent a file that won’t open, perhaps because you don’t have an app capable of opening it, or because it’s corrupt, you can view its contents in Terminal. For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
+  ```
+  cat [file path]
+  ```
+  Tip: instead of manually typing the path to the file, you can drag it on to the Terminal window and drop it after the command.
+
+- How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. Mostly they work very well, but occasionally things go awry, like when you copy a file from one user account to another and discover you can’t open in it in your account. There are two commands we can use to change permissions; chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user. So, to change permissions on a file to allow anyone to access, read, and modify the file, we’d use:
+  ```
+  sudo chmod 777 path-to-file
+  ```
+  Where path-to-file is the path of the file whose permissions you want to modify. Remember, rather than type the file path, you can drag the file onto the Terminal window. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, drag the folder onto the Terminal window instead of a file, and type -R after the command name. To change ownership of a file to your account, use:
+  ```
+  sudo chown your-short-user-name path-to-file
+  ```
+
 - Search and use the old commands - You can search for a command in the history using any search term. Just use the keys ctrl+r to initiate reverse search and type some part of the command.
   ```
   ctrl+r search_term
@@ -148,37 +182,3 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   nohup scp very-big-file.mkv [email protected]:~/very-big-file.mkv
   ```
   nohup also creates a file called nohup.out to store the output of the command.
-
-- Drag any file into a Terminal window to input its path.
-
-- In terminal, you can add "man" before any command to read it's manual page. For example.
-  ```
-  man ls
-  ```
-  Now you can see how to use the ls command, scrolling with your mouse or arrow keys and press 'q' key to quit.
-
-- Download files without a browser - Set the location you want the file to be downloaded and then download the file with curl.
-  ```
-  cd ~/Downloads/
-  curl -O [the URL of the file]
-  ```
-
-- List the Contents of a folder - The ‘ls’ command displays the contents of a directory By adding ‘-R’ it expands sub-folders. So to see all the contents of a folder, type:
-  ```
-  ls -R [the path of the directory]
-  ```
-
-- View any file’s contents - If you’re ever sent a file that won’t open, perhaps because you don’t have an app capable of opening it, or because it’s corrupt, you can view its contents in Terminal. For lots of files, like audio and video, the text you see won’t mean much. For others, there may be just enough for you to parse what you need.
-  ```
-  cat [file path]
-  ```
-  Tip: instead of manually typing the path to the file, you can drag it on to the Terminal window and drop it after the command.
-
-- How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. Mostly they work very well, but occasionally things go awry, like when you copy a file from one user account to another and discover you can’t open in it in your account. There are two commands we can use to change permissions; chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user. So, to change permissions on a file to allow anyone to access, read, and modify the file, we’d use:
-  ```
-  sudo chmod 777 path-to-file
-  ```
-  Where path-to-file is the path of the file whose permissions you want to modify. Remember, rather than type the file path, you can drag the file onto the Terminal window. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644. If you want to change permissions on all the files in a folder, drag the folder onto the Terminal window instead of a file, and type -R after the command name. To change ownership of a file to your account, use:
-  ```
-  sudo chown your-short-user-name path-to-file
-  ```
