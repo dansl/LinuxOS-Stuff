@@ -68,7 +68,6 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   ```
   cat [file path]
   ```
-  Tip: instead of manually typing the path to the file, you can drag it on to the Terminal window and drop it after the command.
 
 - How to alter file permissions using Terminal - File permissions control which users can access and modify files and folders. Mostly they work very well, but occasionally things go awry, like when you copy a file from one user account to another and discover you can’t open in it in your account. There are two commands we can use to change permissions; chmod, which modifies permissions for all users except the file’s owner, and chown which assigns ownership to a specific user. So, to change permissions on a file to allow anyone to access, read, and modify the file, we’d use:
   ```
