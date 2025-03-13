@@ -22,6 +22,7 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | [Kiwix](https://kiwix.org/en/) | FREE | Store local copies of Wikipedia on your PC. |
 | [Lutris](https://lutris.net) | FREE | Open-Source Game Launcher for Linux. |
 | [Motrix](https://motrix.app) | FREE | Download manager that will pull downloads off servers faster by using multiple streams. |
+| [MusicBrainz Picard](https://picard.musicbrainz.org) | FREE | Music collection metadata manager. |
 | [Ollama](https://ollama.com) | FREE | Run AI LLMs locally on your PC. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
 | [Postman](https://www.postman.com) | FREE | API testing and development tool. |
