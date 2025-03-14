@@ -188,6 +188,18 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
   ```
   nohup also creates a file called nohup.out to store the output of the command.
 
+### Terminal Apps and Plugins
+
+These are ways to make your terminal more efficient and more enjoyable!
+
+- [bat](https://github.com/sharkdp/bat) - bat is a replacement for cat command that displays files with syntax highlighting.
+- [btop](https://github.com/aristocratos/btop) - btop is a replacement for top command that displays system resources and running tasks information with syntax highlighting.
+- [eza](https://github.com/eza-community/eza) - eza is a replacement for ls command that displays files and folders with syntax highlighting.
+- [fd](https://github.com/sharkdp/fd) - fd is a simple, fast and user-friendly alternative to find command.
+- [navi](https://github.com/denisidoro/navi) - navi is a cheatsheet for your terminal. Download community made cheatsheets with various commonly used command examples, and search for them to use.
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - zsh-autosuggestions is a plugin for zsh that provides auto-suggestions based on your command history.
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - zsh-syntax-highlighting is a plugin for zsh that provides syntax highlighting for commands.
+
 Thanks for reading. Follow me for more!
 - [Website](https://dansl.net)
 
