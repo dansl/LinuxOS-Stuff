@@ -25,6 +25,8 @@ Here's a list of all my favorite Linux apps, tips, and tricks. My current distro
 | [MusicBrainz Picard](https://picard.musicbrainz.org) | FREE | Music collection metadata manager. |
 | [Ollama](https://ollama.com) | FREE | Run AI LLMs locally on your PC. |
 | [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) | FREE | 3D model slicer for prepping your models to 3D Print. |
+| [Plex](https://www.plex.tv) | FREE | Media server that will stream your music, movies and TV shows to any device. |
+| [Plexamp](https://www.plex.tv/plexamp/) | FREE | Music streaming app that will stream music from your Plex server. Also has AI playlist generation. |
 | [Postman](https://www.postman.com) | FREE | API testing and development tool. |
 | [Reaper](https://www.reaper.fm) | FREE | Powerful audio editing tool. |
 | [RetroArch](https://www.retroarch.com) | FREE | Emulator frontend for retro gaming. |
