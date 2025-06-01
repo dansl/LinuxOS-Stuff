@@ -16,7 +16,7 @@ jobs:
       - name: Update page to target repo
         run: |
           git clone https://x-access-token:${{ secrets.TARGET_REPO_PAT }}@github.com/dansl/dansl.github.io target-repo
-          cp build/README.md target-repo/pages/linux.md
+          cp README.md target-repo/pages/linux.md
 
           cd target-repo
           git config user.email "139961+dansl@users.noreply.github.com"
